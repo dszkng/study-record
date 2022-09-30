@@ -5,6 +5,7 @@ import (
 	"runtime"
 )
 
+//包初始化函数
 func init() {
 	fmt.Printf("Map: %v\n", m)
 	n = fmt.Sprintf("OS: %s, Arch: %s\n", runtime.GOOS, runtime.GOARCH)
